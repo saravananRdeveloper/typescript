@@ -1,9 +1,9 @@
 let person ={
-    id : 123,
-    name : "Saravanan",
-    age : 30,
+    id : 4725,
+    name : "Saravanan R",
+    age : 23,
     address : {
-        city : "Chennai",
+        city : "Salem",
         state : "Tamil Nadu",
         country : "India"
     },

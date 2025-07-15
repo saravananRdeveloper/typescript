@@ -1,4 +1,17 @@
+// function outerfunction(){
+//     console.log("This is Outer function");
+// };
+// outerfunction();
+
 function outerfunction(){
-    console.log("This is Outer function");
+    let count = 0;
+    function innerfunction(){
+        count++;
+        console.log( count);
+    }
+    return innerfunction;
 };
-outerfunction();
+let demo  = outerfunction();
+demo();
+demo();
+demo();

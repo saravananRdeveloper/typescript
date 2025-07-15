@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="d1"></h1> 
+    <h1 id="d2">Chennai</h1> 
+    <h1 id="d3">India</h1> 
+    <button type="button" onclick="changeData()"> Changepond</button><br>
+    <button type="button" onclick="ChangeColour()"> Green</button>
+    <button type="button" onclick="ChangeColour1()"> Blue</button>
+    <button type="button" onclick="ChangeColour2()"> indigo</button>
+    <hr>
+    <img id="#img1" src="./samosa.webp" alt="Samosa" width="200" height="200"> <hr>
+    <strong> Samosa</strong> <br> <br>
+    <button type="button"> Samosa</button>
+    <button type ="button" onclick="Changeimg()"> jilabi</button>
+    <button type ="button" onclick="Changeimg1()"> Dosa</button>
+    <button type ="button" onclick="Changeimg2()"> Idly </button>
+    <script>
+        
+        function changeData(){
+            document.getElementById("d2").innerHTML = "Tamil Nadu";
+        }
+        function ChangeColour(){
+            document.getElementById("d2").style.color = "Green";
+        }
+        function ChangeColour1(){
+            document.getElementById("d2").style.color = "Blue";
+        }
+        function ChangeColour2(){
+            document.getElementById("d2").style.color = "indigo";
+        }
+        function Changeimg(){
+            document.getElementById("#img1").src = "./jilabi.webp"; 
+        }
+        function Changeimg1(){
+            document.getElementById("#img1").src = "./dosa.webp"; 
+        }
+        function Changeimg2(){
+            document.getElementById("#img1").src = "./idly.webp"; 
+        }
+
+        document.getElementById("d1").innerHTML = "Changepond";
+        document.getElementById("d2").style.color = "red";
+        let data = document.getElementById("d3").innerHTML;
+        console.log(data);
+        
+        window.alert("Welcome to Changepond");
+        
+    </script>
+</body>
+</html>
